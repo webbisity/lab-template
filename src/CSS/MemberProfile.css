@@ -1,0 +1,137 @@
+.memberWrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px 0;
+    gap: 60px;
+}
+
+.memberWrapper ul {
+    list-style: none;
+}
+
+.memberWrapper .back {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 22px;
+
+}
+
+.back .svgIcon {
+    padding-right: 10px;
+}
+
+.memberWrapper .profile {
+    min-height: 75vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.memberWrapper .publish {
+    text-align: left;
+    font-size: 28px;
+}
+
+.profileCard {
+    max-width: 25%;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profileCard,.profileContent {
+    margin-top: 50px;
+}
+
+.profileCard .image {
+    overflow: hidden;
+}
+
+.profileCard img {
+    margin: 0 auto;
+    /* max-width: 80%;
+    min-width: 80%; */
+    width: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1; /* Maintain 1:1 aspect ratio for a perfect circle */
+}
+
+.profileCard .name {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.profileCard .role, .profileCard .shortSummary {
+    font-size: 22px;
+}
+
+
+.profileCard .socials{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.profileCard svg{
+    flex: 1;
+    max-width: 40px; 
+    height: 40px;
+}
+
+.education p, .interests p {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.profileContent {
+    text-align: left;
+    width: 70%;
+}
+.profileContent .contact {
+    margin-bottom: 30px;
+}
+
+.profileContent .contact li {
+    font-size: 20px;
+}
+
+.profileContent .contact span {
+    font-weight: 700;
+}
+
+.profileContent .info {
+    min-height: 20em;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.profileContent .CV {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileContent .CV li {    
+    font-size: 18px;
+}
+
+.profileContent .education, .interests {
+    width: 45%;
+    overflow-wrap: break-word;
+}
+
+.education li, .interests li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.educationIcon, .interestsIcon {
+    margin-right: 3px;
+    left: -30px;
+}

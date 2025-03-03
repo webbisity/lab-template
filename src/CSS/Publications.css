@@ -1,0 +1,47 @@
+.publicationsWrapper {
+    width: 65%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.publicationsTitle {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.publicaionsWrraper h1 {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.articlesListWrraper {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.articleTitle {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.publicationListWrapper .authorName {
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+}
+
+.publicationListWrapperDark .authorName {
+    border-bottom: 1px solid white;
+}
+
+.articleTitle .svgIcon {
+    margin-right: 10px;
+}
+
+.articleAuthor {
+    display: block;
+}
