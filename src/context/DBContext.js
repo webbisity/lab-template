@@ -27,7 +27,7 @@ export const DBContextProvider = ({ children }) => {
                 setPositions(results.data);
             }
         })
-        Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrx5a6lcEqohu2wlApKa6DnPUmNRfYoUkRXjajieoF7PyPOrGKKQeqiROrECNHKPXAYMKZfMrLNwaB/pub?gid=1610881085&single=true&output=csv", {
+        Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vSKpzTApp36hDVhYiBpcgJ3T1le_OTDvc2j7r_ntST939P0RhVnw9hbIL9U0FJ_T0BLKfFoULr6AgwM/pub?gid=1413183075&single=true&output=csv", {
             download: true,
             header: true,
             complete: (results) => {
