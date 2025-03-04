@@ -22,7 +22,7 @@
 .contactInfo .info {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     font-size: 28px;
 }
 
